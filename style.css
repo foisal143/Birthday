@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(bgBirthday.jpg);
+
+  width: 100%;
+  height: 100vh;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 8px 32px;
+  background: transparent;
+  border: 1px solid hotpink;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 50px;
+  color: aqua;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+#demo {
+  margin: 40px 0px;
+  text-align: center;
+  display: none;
+  position: relative;
+  width: 370px;
+  height: 200px;
+  border: 1px solid hotpink;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: transparent;
+  color: white;
+}
+
+.happy,
+.birth {
+  text-align: center;
+}
+
+.happy span:nth-child(1) {
+  color: red;
+  animation: h 3s 1.5s linear infinite;
+}
+@keyframes h {
+  0% {
+    color: red;
+    transform: scale(1);
+    font-size: 40px;
+  }
+  10% {
+    color: blue;
+    font-size: 45px;
+  }
+  20% {
+    color: green;
+    font-size: 50px;
+  }
+  30% {
+    color: aqua;
+    transform: scale(1);
+    font-size: 55px;
+  }
+  40% {
+    color: hotpink;
+    font-size: 60px;
+  }
+  50% {
+    color: goldenrod;
+    font: 65px;
+  }
+  60% {
+    color: blue;
+    font-size: 60px;
+  }
+  70% {
+    color: yellow;
+    font: 55px;
+  }
+  80% {
+    color: rebeccapurple;
+    transform: scale(1);
+    font-size: 50px;
+  }
+  90% {
+    color: lightgreen;
+    font-size: 35px;
+  }
+  100% {
+    color: blueviolet;
+    font: 20px;
+  }
+}
+
+.happy span:nth-child(2) {
+  color: red;
+  animation: h 3s linear infinite;
+}
+.happy span:nth-child(3) {
+  color: red;
+  animation: h 3s 1s linear infinite;
+}
+.happy span:nth-child(4) {
+  color: red;
+  animation: h 3s linear infinite;
+}
+.happy span:nth-child(5) {
+  color: red;
+  animation: h 3s 0.5s linear infinite;
+}
+/* .happy span:nth-child(3) {
+  color: red;
+  animation: h 3s linear infinite;
+} */
+
+span {
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+.birth span:nth-child(1) {
+  animation: h 3s 0.5s linear infinite;
+}
+.birth span:nth-child(2) {
+  animation: h 3s linear infinite;
+}
+.birth span:nth-child(3) {
+  animation: h 3s 0.8s linear infinite;
+}
+.birth span:nth-child(4) {
+  animation: h 3s linear infinite;
+}
+.birth span:nth-child(5) {
+  animation: h 3s 0.9s linear infinite;
+}
+.birth span:nth-child(6) {
+  animation: h 3s linear infinite;
+}
+.birth span:nth-child(7) {
+  animation: h 3s 1s linear infinite;
+}
+.birth span:nth-child(8) {
+  animation: h 3s linear infinite;
+}
+
+.love p {
+  font-size: 25px;
+}
+
+.demo::after {
+  content: '';
+  background: url(load.gif);
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 400px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
